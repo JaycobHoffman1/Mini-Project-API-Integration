@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #161616;
+}
+/* get started button */
+#get-started-button {
+    width: 200px;
+    height: 50px;
+    background-color: #ff1c1c;
+    font-size: 20px;
+    transition: background-color 0.5s;
+}
+#get-started-button:hover {
+    background-color: #b41313;
+}
