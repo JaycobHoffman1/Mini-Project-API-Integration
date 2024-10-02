@@ -4,7 +4,7 @@
     <!-- meta tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This is the landing page for Mini Project: API Integration.">
+    <meta name="description" content="This is the search page for Mini Project: API Integration.">
     <meta name="keywords" content="Pokemon, API, PokeAPI, HTML, CSS, Bootstrap, JavaScript">
     <meta name="author" content="Jaycob Hoffman">
     <!-- bootstrap -->
@@ -26,12 +26,20 @@
     </header>
     <main>
         <!-- landing page text -->
-        <section class="container d-flex justify-content-center mb-5" id="landing-page-text-container">
-            <p class="text-white text-center display-1">Find any Pok&#233;mon. Instantly.</p>
+        <section class="container d-flex justify-content-center mb-5" id="search-page-text-container">
+            <p class="text-white text-center display-1">Search for any Pok&#233;mon.</p>
         </section>
         <!-- get started button -->
-        <section class="container mb-5" id="get-started-button-container">
-            <a class="d-flex justify-content-center text-decoration-none" href="search.html"><button id="get-started-button" class="btn text-white">Get Started</button></a>
+        <section class="container mb-5" id="form-container">
+            <div class="row g-0">
+                <div id="input-field" class="col-10 form-floating">
+                    <input type="email" class="form-control" id="form-input-1" placeholder="name@example.com">
+                    <label for="form-input-1" class="form-label mx-3 text-muted">Enter Pok&#233;mon name here:</label>
+                </div>
+                <button id="search-button" class="col-2 btn text-white">Search</button>
+            </div>
+            <!-- pokemon details -->
+            <article id="pokemon-data" class="mb-3"></article>
         </section>
         <!-- pokeball and thunderbolt image -->
         <figure class="d-flex justify-content-center" id="pokeball-and-thunderbolt-image-container">

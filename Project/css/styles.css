@@ -3,14 +3,26 @@ body {
     box-sizing: border-box;
     background-color: #161616;
 }
-/* get started button */
-#get-started-button {
-    width: 200px;
-    height: 50px;
+/* buttons */
+#get-started-button, #search-button {
     background-color: #ff1c1c;
     font-size: 20px;
     transition: background-color 0.5s;
 }
-#get-started-button:hover {
+#get-started-button {
+    width: 200px;
+    height: 50px;
+}
+#search-button {
+    height: 58px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+#get-started-button:hover, #search-button:hover {
     background-color: #b41313;
+}
+/* Input field */
+#form-input-1 {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
 }
